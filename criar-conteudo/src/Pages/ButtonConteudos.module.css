@@ -1,0 +1,62 @@
+.conteudos {
+  background: #ddd;
+  padding: 0.3rem 0.6rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  font-size: 0.875rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transition: 0.1s;
+  color: #333;
+}
+
+.conteudos:focus,
+.conteudos:hover {
+  outline: none;
+  border-color: green;
+  background: white;
+  box-shadow: 0 0 0 3px rgb(193, 248, 193);
+}
+
+.box {
+  padding: 20px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+.boxConteudo {
+  border: 1px solid green;
+  border-radius: 0.4rem;
+  margin: 20px;
+  max-width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+    padding: 20px;
+  align-items: stretch;
+}
+.boxCriarConteudo {
+  border: 1px solid green;
+  padding: 10px;
+  margin: 20px;
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transition: 0.1s;
+  text-align: center;
+}
+.boxCriarConteudo:focus,
+.boxCriarConteudo:hover {
+  outline: none;
+  border-color: green;
+  background: white;
+  box-shadow: 0 0 0 3px rgb(193, 248, 193);
+}
+.analise{
+    color: red;
+}

@@ -1,0 +1,11 @@
+.header{
+
+  display: flex;
+ 
+  padding: 15px;
+  color: green;
+} 
+
+img{
+    width: 70px;
+}
