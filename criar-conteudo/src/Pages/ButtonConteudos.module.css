@@ -50,6 +50,7 @@
   transition: 0.1s;
   text-align: center;
 }
+
 .boxCriarConteudo:focus,
 .boxCriarConteudo:hover {
   outline: none;
@@ -57,6 +58,8 @@
   background: white;
   box-shadow: 0 0 0 3px rgb(193, 248, 193);
 }
+
 .analise {
-  color: red;
+  color: rgb(195, 4, 4);
+  
 }
