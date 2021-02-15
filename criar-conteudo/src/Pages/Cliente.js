@@ -66,12 +66,14 @@ const Cliente = () => {
   const listaDeClientes =
     lista &&
     lista.map(({ id, nome }) => (
-      <div className={styles.box} key={id} name={id} value={nome}>
+      <div  key={id} name={id} value={nome}>
         <h3> {nome}</h3>
+        <div className={styles.box} >
         <button className={styles.conteudos} onClick={() => sendConteudo(id)}>
           Conteudos
         </button>
         <DeleteCliente clienteId={id} />
+        </div>
       </div>
     ));
 
